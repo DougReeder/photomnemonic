@@ -3,7 +3,7 @@ name: photomnemonic
 on:
   push:
     branches:
-    paths-ignore: ["README.md"]
+    paths-ignore: ["README.md", "LICENSE"]
   workflow_dispatch:
 env:
   containerName: photomnemonic
